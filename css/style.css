@@ -2,7 +2,6 @@ li {
     display: inline;
 }
 
-.row {
-    height: 300px;
+body {
+    background-color: rgba(102, 189, 15, 0.685);
 }
-
