@@ -1,3 +1,43 @@
 li {
     display: inline;
 }
+.backgroundForests {
+    background-image: url("../images/forests.png");
+    background-repeat: no-repeat;
+    height: 25em;
+}
+.backgroundMountains {
+    background-image: url("../images/mountains.png");
+    background-repeat: no-repeat;
+}
+.backgroundRivers {
+    background-image: url("../images/rivers.png");
+    background-repeat: no-repeat;
+}
+.backgroundOceans {
+    background-image: url("../images/oceans.png");
+    background-repeat: no-repeat;
+}
+.backgroundCaves {
+    background-image: url("../images/caves.png");
+    background-repeat: no-repeat;
+    height: 25em;
+}
+.backgroundVolcanoes {
+    background-image: url("../images/volcanoes.png");
+    background-repeat: no-repeat;
+}
+.backgroundDeserts {
+    background-image: url("../images/deserts.png");
+    background-repeat: no-repeat;
+}
+.backgroundWorldWonders {
+    background-image: url("../images/worldwonders.png");
+    background-repeat: no-repeat;
+}
+.display-7 {
+    font-size: calc(0.35rem + 1vw);
+    font-weight: 300;
+    /* line-height: 1.2; */
+    
+  }
