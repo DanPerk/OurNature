@@ -36,8 +36,10 @@ li {
     background-repeat: no-repeat;
 }
 .display-7 {
-    font-size: calc(0.35rem + 1vw);
+    font-size: calc(0.30rem + 1vw);
     font-weight: 300;
-    /* line-height: 1.2; */
-    
+    /* line-height: 1.2; */ 
   }
+.backgroundImage {
+    background-color: rgba(105, 105, 105, 0.137)
+}
