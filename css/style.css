@@ -43,3 +43,16 @@ li {
 .backgroundImage {
     background-color: rgba(105, 105, 105, 0.137)
 }
+@keyframes example {
+    from {opacity: 0%;}
+    to {opacity: 70%;}
+}
+/* .bgF {
+   
+} */
+.bgF:hover {
+   
+    animation-name: example;
+    animation-duration: 2s;
+    vertical-align: middle;
+}
