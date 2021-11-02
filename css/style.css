@@ -118,10 +118,11 @@ blockquote {
 }
 
 .main-container > div > a > h3 {
-    /* position: absolute; */
-    z-index: 1;
+    position: relative;
+    z-index: 2;
     font-size: 2rem;
-    align-items: center;
+    /* margin: 50%; */
+    /* grid-area: 1 / 1 / 2 / 2; */
 }
 
 .main-container img[src]:hover {
@@ -132,7 +133,6 @@ blockquote {
 }
 .main-container > div > a {
     text-decoration: none;
-    text-align: center;
 }
 
 .footer {
