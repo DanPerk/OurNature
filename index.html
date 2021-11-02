@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,62 +10,94 @@
     <meta name="keywords" content="nature, forest, mountains, rivers, oceans, caves, vulcanos, deserts, world wonders">
     <link rel="shortcut icon" type="image/ico" href="images/iconTree.png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@200&family=Poppins:wght@100;300;400;600&family=Roboto:wght@100;400;700&family=Zen+Old+Mincho:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
-<body class="backgroundImage"> 
+<body>
+    <!-- header-image -->
+    <div class="header-image">
+        <img src="images/header-image.jpg" alt="Mountains">
+    </div>
 
-    <nav class="navbar sticky-top bg-dark">
-        <ul class="list-inline">
-            <span class="text-success display-4 ms-4"> <a class="text-decoration-none" href="index.html">OurNature</a></span>
-        </ul>
-        <ul class="display-7 nav-link pt-4 pe-5">
-            <li> <a class="text-decoration-none" href="index.html">Forest</a></li>
-            <li>| <a class="text-decoration-none" href="index.html">Mountains</a></li>
-            <li>| <a class="text-decoration-none" href="index.html">Rivers</a></li>
-            <li>| <a class="text-decoration-none" href="index.html">Oceans</a></li>
-            <li>| <a class="text-decoration-none" href="index.html">Caves</a></li>
-            <li>| <a class="text-decoration-none" href="index.html">Volcanoes</a></li>
-            <li>| <a class="text-decoration-none" href="index.html">Deserts</a></li>
-            <li>| <a class="text-decoration-none" href="index.html">World Wonders</a></li>
+    <!-- navigation bar -->
+    <nav>
+        <!-- <div class="logo">
+            <a href="index.html">OurNature</a>
+        </div> -->
+        <ul class="nav-items">
+            <li> <a href="forests.html">Forests</a></li>
+            <li> <a href="index.html">Mountains</a></li>
+            <li> <a href="index.html">Rivers</a></li>
+            <li> <a href="index.html">Oceans</a></li>
+            <li> <a href="index.html">Caves</a></li>
+            <li> <a href="index.html">Volcanoes</a></li>
+            <li> <a href="index.html">Deserts</a></li>
+            <li> <a href="index.html">World Wonders</a></li>
         </ul>
     </nav>
+    <!-- header-name -->
 
-    <main class="container mt-5">
-        <div class="row">
-            <div class="backgroundForests col-3 border bg-light">
-                <h1 class="bgF label">FORESTS</h1>
-            </div>
-            <div class="backgroundMountains col-3 border bg-light">
-                <!-- <img src="images/mountains.png" alt="mountains"> -->
-            </div>
-            <div class="backgroundRivers col-3 border bg-light">
-                <!-- <img src="images/rivers.png" alt="rivers"> -->
-            </div>
-            <div class="backgroundOceans col-3 border bg-light">
-                <!-- <img src="images/oceans.png" alt="oceans"> -->
-            </div>
+    <div class="header-container">
+        <h1 class="header-name">OurNature</h1>
+    </div>
+    <!-- main content 1st -->
+
+    <blockquote cite="https://www.brainyquote.com/quotes/john_lubbock_122570?src=t_nature">&quot;Earth and sky, woods
+        and fields, lakes and rivers, the mountain and the sea, are excellent schoolmasters, and teach some of us more
+        than we can ever learn from books.&quot; <p>by John Lubbock</p>
+    </blockquote>
+
+    <h3 class="main-header">Explore The Nature</h3>
+    <div>
+    <p id="para">Nature, in the broadest sense, is the natural, physical, material world or universe. "Nature" can refer to the
+        phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only,
+        part of science. Although humans are part of nature, human activity is often understood as a separate category
+        from other natural phenomena.</p>
+    </div>
+
+    <main class="main-container">
+        <div class="backgroundForests">
+            <!-- <h3>Forests</h3> -->
+            <a href="forests.html"><h3>Forest</h3><img src="images/forests.png" alt="forests"></a>
         </div>
-        <div class="row">
-            <div class="backgroundCaves col-3 border bg-light">
-                <!-- <img src="images/caves.png" alt="cave"> -->
-            </div>
-            <div class="backgroundVolcanoes col-3 border bg-light">
-                <!-- <img src="images/volcanoes.png" alt="volcanoes"> -->
-            </div>
-            <div class="backgroundDeserts col-3 border bg-light">
-                <!-- <img src="images/deserts.png" alt=""> -->
-            </div>
-            <div class="backgroundWorldWonders col-3 border bg-light">
-                <!-- <img src="images/worldwonders.png" alt="world wonders"> -->
-            </div>
+        <div class="backgroundMountains">
+            <a href="mountains.html"><img src="images/mountains.png" alt="mountains"></a>
+        </div>
+        <div class="backgroundRivers">
+            <a href="rivers.html"><img src="images/rivers.png" alt="rivers"></a>
+        </div>
+        <div class="backgroundOceans">
+            <a href="oceans.html"><img src="images/oceans.png" alt="oceans"></a>
+        </div>
+        <div class="backgroundCaves">
+            <a href="caves.html"><img src="images/caves.png" alt="cave"></a>
+        </div>
+        <div class="backgroundVolcanoes">
+            <a href="volcanoes.html"><img src="images/volcanoes.png" alt="volcanoes"></a>
+        </div>
+        <div class="backgroundDeserts">
+            <a href="deserts.html"><img src="images/deserts.png" alt=""></a>
+        </div>
+        <div class="backgroundWorldWonders">
+            <a href="worldwonders"><img src="images/worldwonders.png" alt="world wonders"></a>
         </div>
     </main>
+    <!-- footer section -->
 
-<footer class="footer bg-dark small text-center text-white-50 mt-5">
+    <footer class="footer">
 
-</footer>
-    
+        <p>
+            Thanks to all the nature wonders.
+        </p>
+
+        <p>Copyrighted by Nature &copy;</p>
+    </footer>
+
 </body>
 
 </html>
