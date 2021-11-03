@@ -32,6 +32,7 @@ nav {
     margin: 0;
     padding: 0;
     text-align: center;
+    
     /* border-bottom: 2px solid rgba(0, 0, 0, 0.548); */
 }
 /* .logo {
@@ -51,7 +52,7 @@ ul > li {
     list-style-type: none;
 }
 
-ul > li a {
+.nav-items a {
     text-decoration: none;
     /* color: #57a9bd; */
     color: #f8e119;
@@ -93,12 +94,16 @@ blockquote {
     margin: 6rem 0 2rem 10%;
     /* font-weight: 700; */
     text-transform: uppercase;
+    background-color: #f8e119;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    border-right: none;
 }
 
 #para {
     text-align: justify;
     font-size: 1.4rem;
-    margin: 0 10%;
+    margin: 0 10.5%;
+    word-spacing: 1px;
 }
 
 .main-container {
@@ -118,7 +123,6 @@ blockquote {
 }
 
 .main-container > div > h3 {
-    
 }
 
 .main-container img[src]:hover {
@@ -131,15 +135,60 @@ blockquote {
     text-decoration: none;
 }
 
+.site-nav {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 6rem;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+.site-nav > div > h4 {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    color: blanchedalmond;
+}
+.site-nav-items {
+    padding: 0.4rem;
+}
+.site-nav-items li {
+    font-size: 1.1rem;
+    color: #f8e21967;
+}
+
+.site-nav-items a {
+    color: #f8e21967;
+}
+
+.site-nav p {
+    font-size: 1.1rem;
+    color: #f8e21967;
+}
+
+.site-nav i {
+    font-size: 2rem;
+    /* color: #f8e119; */
+    margin: 1.5rem 2.3% ;
+}
+.site-nav button{
+    color: #f8e21967;
+    font-size: 1.2rem;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 1rem;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.527);
+    border-radius: 7px;
+    margin-top: 2rem;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: #f8e119;
-    border-top: 2px solid rgba(0, 0, 0, 0.548);
-    background-color: rgba(0, 0, 0, 0.767);
+    color: #f8e21967;
+    border-top: 1px solid grey;
+    background-color: rgba(0, 0, 0, 0.842);
 }
-/* blockquote {
-    margin-top: 20px;
-    font-style: italic;
-} */
