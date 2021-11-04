@@ -39,9 +39,15 @@ nav {
     padding: 0;
     text-align: center;
 }
+.bgc {
+    background-color: rgba(0, 0, 0, 0.452);
+    
+}
 ul > li {
     font-size: 1.4rem;
     list-style-type: none;
+    color: white;
+    text-shadow: .1rem .1rem black;
 }
 
 ul > li a {
@@ -111,18 +117,107 @@ blockquote {
     from {left: -50px;}
     to {left: 0px;}
 }
-.mid-text {
-    background-color: #6fac6f81;
+.reasons {
+    /* background-image: url(/images/forestsbg2.jpg); */
+    background-color: #2bac2ba6;
+}
+.mid-text1 {
+    background-color: #fbfffb9b;
     text-align: center;
     font-size: x-large;
     border: 1px solid black;
-
+    
+}
+.mid-text-flex {
+    background-color: #fbfffb9b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    flex-flow: row;
+    border: 1px solid black;
+}
+.col1 {
+    /* background-color: #7a8f63; */
+    text-align: left;
+    font-size: x-large;
+    width: 30rem;
+    padding: 0;
+}
+.col2 {
+    /* background-color: #6fac6f81; */
+    text-align: left;
+    font-size: x-large;
+    width: 30rem;
 }
 h2 {
-    background-color: #6fac6f7c;
+    background-color: #6f946f;
     padding: 0;
     margin: 0;
-    border: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    text-align: center;
+}
+h3 {
+    background-color: #6f946f;
+    margin: 0;
+    border-bottom: 1.5px solid black;
+    text-align: center;
 }
 
+/* FOOTER */
+.site-nav {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    /* margin-top: 6rem; */
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+.site-nav > div > h4 {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    color: blanchedalmond;
+}
+.site-nav-items {
+    padding: 0.4rem;
+}
+.site-nav-items li {
+    font-size: 1.1rem;
+    color: #f8e21967;
+}
+
+.site-nav-items a {
+    color: #f8e21967;
+}
+
+.site-nav p {
+    font-size: 1.1rem;
+    color: #f8e21967;
+}
+
+.site-nav i {
+    font-size: 2rem;
+    /* color: #f8e119; */
+    margin: 1.5rem 2.3% ;
+}
+.site-nav button{
+    color: #f8e21967;
+    font-size: 1.2rem;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 1rem;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.527);
+    border-radius: 7px;
+    margin-top: 2rem;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #f8e21967;
+    border-top: 1px solid grey;
+    background-color: rgba(0, 0, 0, 0.842);
+}
 
