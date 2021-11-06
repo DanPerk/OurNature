@@ -47,7 +47,7 @@ ul > li {
     font-size: 1.4rem;
     list-style-type: none;
     color: white;
-    text-shadow: .1rem .1rem black;
+    text-shadow: .05rem .05rem black;
 }
 
 ul > li a {
