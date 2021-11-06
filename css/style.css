@@ -183,3 +183,12 @@ blockquote {
 }
 
 /* ---FORESTS--- */
+
+.facts {
+    color: blue !important;
+    background-color: coral;
+    border: 1px solid black;
+}
+
+
+/* MOUNTAINS  */
