@@ -184,6 +184,7 @@ blockquote {
 
 /* ---FORESTS--- */
 
+<<<<<<< Updated upstream
 .facts {
     color: blue !important;
     background-color: coral;
@@ -192,3 +193,9 @@ blockquote {
 
 
 /* MOUNTAINS  */
+=======
+.site-nav button{
+    color: red;
+    font-size: 1.0rem;
+}
+>>>>>>> Stashed changes
