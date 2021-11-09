@@ -24,7 +24,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.767);
+    background-color: rgba(0, 0, 0, 0.911);
 }
 
 .nav-items {
@@ -123,7 +123,7 @@ nav {
     justify-content: space-around;
     /* flex-flow: row wrap; */
     margin-top: 6rem;
-    background-color: rgba(0, 0, 0, 0.842);
+    background-color: rgba(0, 0, 0, 0.938);
 }
 
 .site-nav > div > h4 {
@@ -137,20 +137,18 @@ nav {
 
 .site-nav-items {
     padding: 0.4rem;
-}
-
-.site-nav-items li {
-    font-size: 1.1rem;
-    color: #f8e21967;
+    list-style-type: none;
 }
 
 .site-nav-items a {
-    color: #f8e21967;
+    color: #f8e119;
+    font-size: 1.1rem;
+    
 }
 
 .site-nav p {
     font-size: 1.1rem;
-    color: #f8e21967;
+    color: #f8e119;
 }
 
 .site-nav i {
@@ -177,9 +175,9 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: #f8e21967;
+    color: #f8e119;
     border-top: 1px solid grey;
-    background-color: rgba(0, 0, 0, 0.842);
+    background-color: rgba(0, 0, 0, 0.938);
 }
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ---FORESTS--- */
@@ -323,15 +321,24 @@ nav {
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ---MOUNTAINS--- */
 
+.mountains-body {
+    background: #427cbb81;
+}
+
+.mountain-nav-items a {
+    color: #427cbb;
+}
+
 /* main content */
 
 .mountains-container {
     display: grid;
     grid: auto-flow min-content / repeat(2, 1fr);
-    border: 1px solid black;
+    /* border: 1px solid rgba(0, 0, 0, 0.363); */
     width: 60%;
     margin: 10rem auto;
-    
+    /* background-color: #427cbb81; */
+    box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.685);
 }
 
 .mountains-images {
@@ -340,10 +347,34 @@ nav {
     border-radius: 1px;
 }
 
+.mountains-text {
+    width: 90%;
+}
 
+.mountains-h3 {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+}
 
+.mountains-para {
+    line-height: 2rem;
+    text-align: justify;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
 
+.mountain-site-nav > div > h4 {
+    color: #9ac5f3; 
+}
 
+.mountain-site-nav > div > p {
+    color: #82b2e6;
+}
+
+.mountain-icons i {
+    color: #427cbb;
+}
 
 
 
