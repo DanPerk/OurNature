@@ -322,7 +322,7 @@ nav {
 /* ---MOUNTAINS--- */
 
 .mountains-body {
-    background: #427cbb81;
+    background: #d5e0eb81;
 }
 
 .mountain-nav-items a {
@@ -331,12 +331,18 @@ nav {
 
 /* main content */
 
+.mountains-main-wrapper {
+    /* border-bottom: 1px solid black; */
+    background-color: rgba(63, 115, 194, 0.26);
+    padding: 10rem 0;
+}
+
 .mountains-container {
     display: grid;
     grid: auto-flow min-content / repeat(2, 1fr);
     /* border: 1px solid rgba(0, 0, 0, 0.363); */
     width: 60%;
-    margin: 10rem auto;
+    margin: auto;
     /* background-color: #427cbb81; */
     box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.685);
 }
@@ -364,8 +370,59 @@ nav {
     font-size: 1.1rem;
 }
 
+/* table */
+
+.mountains-table-wrapper {
+    background-color: #427cbb23;
+    /* border: 1px solid black; */
+    height: 50vh;
+    padding: 15vh 0 25% 0;
+}
+
+.mountains-table {
+    width: 60%;
+    margin: auto;
+    color: white;
+}
+.mountains-table caption {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+
+.mountains-table tr th {
+    color: black;
+    font-size: 1.6rem;
+    background-color: #427cbb;
+}
+
+.mountains-table tr td {
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 0;
+}
+
+.mountains-table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    text-align: center;
+    background-color: rgba(63, 115, 194, 0.342);
+    font-size: 1.3rem;
+}
+
+table tr td img {
+    display: block;
+    height: 20rem;
+    width: 20rem;
+}
+
+/* footer section */
+
+.mountain-site-nav {
+    margin-top: 0;
+}
+
 .mountain-site-nav > div > h4 {
-    color: #9ac5f3; 
+    color: white; 
 }
 
 .mountain-site-nav > div > p {
@@ -376,6 +433,17 @@ nav {
     color: #427cbb;
 }
 
+.mountains-site-nav-items li a {
+    color: #427cbb;
+}
+
+button.mountains-bouncy {
+    background: #427cbb;
+}
+
+.mountains-footer p {
+    color: #427cbb;
+}
 
 
 
