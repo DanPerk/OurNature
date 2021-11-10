@@ -539,12 +539,70 @@ button.mountains-bouncy {
     text-align: center;
 }
 
+/*-------------------------------------------------------------------------------------------------------*/
 
+/* ---CAVES--- */
 
+.caves-body {
+    font-size: 24px;
+}
+.caves-main {
+    background: rgb(0, 0, 0);
+}
 
+/* navigation bar */
 
+.caves-nav-items {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* border-bottom: 2px solid #cc9741be; */
+}
+.caves-nav-items > li {
+    font-size: 1.4rem;
+    list-style-type: none;
+    /* color: white; */
+}
+.caves-nav-items > li a {
+    text-decoration: none;
+    color: #b3732a;
+}
+.caves-nav-items > li a:hover {
+    color: #fafafa
+}
+.caves-nav-items a {
+    padding: 0 20px;
+}
+.caves-active {
+    background-color: rgba(255, 255, 255, 0.849);
+}
 
+/* main */
 
+.caves-bg-image {
+    text-align: center;
+}
+.caves-bg-image {
+    /* position: relative; */
+    animation: image 4.5s ease-out;  
+}
+@keyframes image {
+   0% {transform: scale(1) translatex(-10px); opacity: 0;}
+   100% {flood-opacity: 1;}
+}
+.caves-quote {
+    color: #f29238;
+    position: absolute;
+    bottom: 560px;
+    left: 500px;
+    animation: quote 5.5s linear;
+}
+@keyframes quote {
+    0% {opacity: 0;}
+   100% {opacity: 1;}
+}
 
 
 
