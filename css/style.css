@@ -317,6 +317,9 @@ nav {
     color: white;
     font-size: 22px;
 }
+.forests-nav {
+    background-color: #2bac2b;
+}
 
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ---MOUNTAINS--- */
@@ -445,73 +448,6 @@ button.mountains-bouncy {
     color: #427cbb;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-------------------------------------------------------------------------------------------------------*/
 
 /* ---RIVERS--- */
@@ -598,8 +534,10 @@ button.mountains-bouncy {
 }
 .beneath-flex-container > div > img {
     border-radius: 10px;
+    float: left;
+    padding: 30px;
+    text-align: center;
 }
-
 
 
 
