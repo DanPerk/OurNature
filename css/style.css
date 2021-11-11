@@ -23,7 +23,7 @@ body {
 nav {
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     background-color: rgba(0, 0, 0, 0.911);
 }
 
@@ -90,12 +90,43 @@ nav {
 }
 
 .main-container {
+    position: relative;
     display: grid;
     grid: auto-flow 28rem / repeat(4, 1fr);
     width: 80%;
     margin: 4rem auto;
     grid-gap: .8rem;
 }
+
+.main-background {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.main-h {
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: bold;
+    z-index: 1;
+    font-style: italic;
+    color: #ffe600;
+    /* text-shadow: 1px 1px black; */
+    cursor: pointer;
+    text-shadow: 0 1px 0 #000,
+               0 2px 0 #000,
+               /* 0 3px 0 #000, */
+               /* 0 4px 0 #000, */
+               /* 0 5px 0 #000, */
+               /* 0 6px 1px rgba(0,0,0,.1), */
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
 
 .main-container > div > a > img {
     width: 100%;
@@ -543,14 +574,14 @@ button.mountains-bouncy {
 
 /* ---OCEANS--- */
 
-html, .oceans-body {
+.oceans-html, .oceans-body {
     height: 100%;
     margin: 0;
-    background: #fff;
+    /* background: #fff; */
 }
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    opacity: 0.65;
+    /* opacity: 0.9; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -563,12 +594,12 @@ html, .oceans-body {
 }
 
 .bgimg-2 {
-    background-image: url(../images/oceans-bg-2.jpg);
+    background-image: url("../images/oceans-bg-2.jpg");
     min-height: 400px;
 }
 
 .bgimg-3 {
-    background-image: url(../images/oceans-bg-3.jpg);
+    background-image: url("../images/oceans-bg-3.jpg");
     min-height: 400px;
 }
 
