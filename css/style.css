@@ -592,7 +592,7 @@ html, .oceans-body {
 /* ---CAVES--- */
 
 .caves-body {
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 .caves-main {
     background-color: black;
@@ -642,21 +642,29 @@ html, .oceans-body {
 }
 .caves-quote {
     color: #f29238;
-    position: absolute;
-    bottom: 560px;
-    left: 500px;
+    position: relative;
+    bottom: 8em;
+    left: 20em;
     animation: quote 5.5s linear;
+    font-size: 1.6em;
 }
 @keyframes quote {
     0% {opacity: 0;}
    100% {opacity: 1;}
 }
 
+/* cave paintings grid */
 
-
-
-
-
-
-
-
+.caves-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    padding: 10em;
+}
+.caves-grid-item {
+    background-color: black;
+    border: 1px solid #b3732a;
+    /* padding: 5px; */
+    /* font-size: 30px; */
+    text-align: center;
+}
