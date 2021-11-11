@@ -626,7 +626,7 @@ button.mountains-bouncy {
     font-size: 24px;
 }
 .caves-main {
-    background: rgb(0, 0, 0);
+    background-color: black;
 }
 
 /* navigation bar */
@@ -682,6 +682,8 @@ button.mountains-bouncy {
     0% {opacity: 0;}
    100% {opacity: 1;}
 }
+
+
 
 
 
