@@ -623,7 +623,7 @@ button.mountains-bouncy {
 /* ---CAVES--- */
 
 .caves-body {
-    /* font-size: 24px; */
+    height: 100%;
 }
 .caves-main {
     background-color: black;
@@ -690,12 +690,25 @@ button.mountains-bouncy {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: black;
-    padding: 10em;
+    margin: 0 5em;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 6em;
+    
 }
 .caves-grid-item {
     background-color: black;
-    border: 1px solid #b3732a;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
     /* padding: 5px; */
     /* font-size: 30px; */
     text-align: center;
+}
+
+/* footer site-nav */
+
+.caves-site-nav {
+    margin-top: 0;
 }
