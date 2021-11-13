@@ -574,14 +574,21 @@ button.mountains-bouncy {
 
 /* ---OCEANS--- */
 
+.oceans-nav-items {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+
 .oceans-html, .oceans-body {
     height: 100%;
     margin: 0;
-    /* background: #fff; */
+    background: #fe8c4e49;
 }
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    /* opacity: 0.9; */
+    opacity: 0.8;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -595,12 +602,12 @@ button.mountains-bouncy {
 
 .bgimg-2 {
     background-image: url("../images/oceans-bg-2.jpg");
-    min-height: 400px;
+    min-height: 600px;
 }
 
 .bgimg-3 {
     background-image: url("../images/oceans-bg-3.jpg");
-    min-height: 400px;
+    min-height: 500px;
 }
 
 .oceans-caption {
