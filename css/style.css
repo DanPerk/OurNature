@@ -586,6 +586,23 @@ button.mountains-bouncy {
     margin: 0;
     background: #fe8c4e49;
 }
+
+.oceans-text {
+    background-color: #fe8c4e00;
+    color: rgb(0, 0, 0);
+    font-size: 10vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: multiply; /* This makes the cutout text possible */
+  }
+
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
     opacity: 0.8;
