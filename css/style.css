@@ -684,12 +684,12 @@ button.mountains-bouncy {
 
 /* main */
 
-.caves-bg-image {
+.caves-bg-image > img {
     text-align: center;
-}
-.caves-bg-image {
-    /* position: relative; */
+    max-width: 94%;
+    height: auto;
     animation: image 4.5s ease-out;  
+
 }
 @keyframes image {
    0% {transform: scale(1) translatex(-10px); opacity: 0;}
@@ -698,8 +698,10 @@ button.mountains-bouncy {
 .caves-quote {
     color: #f29238;
     position: relative;
-    bottom: 8em;
-    left: 20em;
+    bottom: 4em;
+    left: 2em;
+    width: 96%;
+    height: auto;
     animation: quote 5.5s linear;
     font-size: 1.6em;
 }
@@ -712,6 +714,7 @@ button.mountains-bouncy {
 
 .caves-grid-container {
     display: grid;
+    box-sizing: border-box;
     grid-template-columns: auto auto auto;
     background-color: black;
     margin: 0 5em;
@@ -734,5 +737,59 @@ button.mountains-bouncy {
 /* footer site-nav */
 
 .caves-site-nav {
+    margin-top: 0;
+}
+
+
+
+
+
+/* ---DESERTS--- */
+
+.deserts-body {
+    height: 100%;
+}
+.deserts-main {
+    background-color: black;
+}
+
+/* navigation bar */
+
+.deserts-nav-items {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* border-bottom: 2px solid #cc9741be; */
+}
+.deserts-nav-items > li {
+    font-size: 1.4rem;
+    list-style-type: none;
+    /* color: white; */
+}
+.deserts-nav-items > li a {
+    text-decoration: none;
+    color: #c2b280;
+}
+.deserts-nav-items > li a:hover {
+    color: #fafafa
+}
+.deserts-nav-items a {
+    padding: 0 20px;
+}
+.deserts-active {
+    background-color: rgba(255, 255, 255, 0.849);
+}
+
+/* main */
+
+.deserts-bg-image > img {
+    
+}
+
+/* footer site-nav */
+
+.deserts-site-nav {
     margin-top: 0;
 }
