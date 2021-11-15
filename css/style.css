@@ -574,11 +574,33 @@ button.mountains-bouncy {
 
 /* ---OCEANS--- */
 
+/* nav bar */
+
 .oceans-nav-items {
     position: fixed;
     top: 0;
+    right: 0;
     z-index: 2;
-    width: 100%;
+    transition: 1.9s;
+}
+
+.oceans-nav-items li {
+    display: inline-block;
+    /* margin: 30px 10px; */
+    
+}
+
+.oceans-nav-items li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+    margin-right: 2rem;
+    transition: 0.4s;
+}
+
+.oceans-nav-items a:hover {
+    color: rgb(216, 206, 206);
+    text-shadow: 1px 1px black;
 }
 
 .oceans-html, .oceans-body {
@@ -586,6 +608,8 @@ button.mountains-bouncy {
     margin: 0;
     background: #fe8c4e49;
 }
+
+/* oceans text */
 
 .oceans-text {
     background-color: #fe8c4e00;
@@ -619,7 +643,125 @@ button.mountains-bouncy {
 
 .bgimg-2 {
     background-image: url("../images/oceans-bg-2.jpg");
-    min-height: 600px;
+    min-height: 500px;
+    text-align: center;
+}
+/* Mediterranean Sea & Baltic Sea  */
+
+.view {
+    display: inline-block;
+    width: 500px;
+    height: 333px;
+    margin: 5% 10px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+
+.mask {
+    width: 500px;
+    height: 333px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.view img {
+    display: block;
+    position: relative;
+}
+
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
+}
+
+.view p {
+    font-style: italic;
+    font-size: 1.2rem;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+}
+
+.view a.info:hover {
+    box-shadow: 0 0 5px #000;
+}
+
+/* Mediterranean Sea & Baltic Sea effects */
+
+.view-first img {
+    transition: all 0.2s linear;
+}
+
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(219,127,8, 0.7); 
+    transition: all 0.4s ease-in-out;
+}
+
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.view-first p { 
+    transform: translateY(100px);
+    opacity: 0;
+	transition: all 0.2s linear;
+}
+
+.view-first a.info{
+    opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+/* Mediterranean Sea & Baltic Sea effects hover effects*/
+
+.view-first:hover img { 
+	transform: scale(1.1);
+} 
+
+.view-first:hover .mask { 
+	opacity: 1;
+}
+
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+
+.view-first:hover a.info {
+    transition-delay: 0.2s;
 }
 
 .bgimg-3 {
