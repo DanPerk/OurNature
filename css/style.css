@@ -747,46 +747,122 @@ button.mountains-bouncy {
 /* ---DESERTS--- */
 
 .deserts-body {
-    height: 100%;
-}
-.deserts-main {
-    background-color: black;
-}
-
-/* navigation bar */
-
-.deserts-nav-items {
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
     padding: 0;
-    text-align: center;
-    /* border-bottom: 2px solid #cc9741be; */
-}
-.deserts-nav-items > li {
-    font-size: 1.4rem;
-    list-style-type: none;
-    /* color: white; */
-}
-.deserts-nav-items > li a {
-    text-decoration: none;
-    color: #c2b280;
-}
-.deserts-nav-items > li a:hover {
-    color: #fafafa
-}
-.deserts-nav-items a {
-    padding: 0 20px;
+    margin: 0; 
 }
 .deserts-active {
-    background-color: rgba(255, 255, 255, 0.849);
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 2px;
+    padding: 10px;
+}
+.deserts-container {
+    width: 100%;
+    height: 100vh;
+    background-image: 
+        linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(/images/desertsbg.png);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+.deserts-navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.deserts-logo {
+    width: 70px;
+    cursor: pointer;
+}
+.menu-icon {
+    width: 40px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+#deserts-nav {
+    flex: 1;
+    text-align: right;
+    background: transparent;
+}
+#deserts-nav > ul > li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+#deserts-nav > ul > li > a {
+    text-decoration: none;
+    color: #ecd540;
+    font-size: 1.4em;
+}
+.deserts-row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.deserts-col {
+    flex-basis: 50%;
+}
+#deserts-heading {
+   color: white; 
+   font-size: 5em;
+}
+#deserts-paragraph {
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.1em;
+    margin-right: 200px;
+}
+#deserts-btn {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.deserts-card {
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1 {
+    background-image: url(/images/deserts1.jpg);
+}
+.card2 {
+    background-image: url(/images/deserts2.jpg);
+}
+.card3 {
+    background-image: url(/images/deserts3.jpg);
+}
+.card4 {
+    background-image: url(/images/deserts4.jpg);
+}
+.deserts-card:hover {
+    transform: translateY(-10px);
+}
+h4 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.deserts-card > p {
+    color: white;
+    text-shadow: 0 0 15px #000;
+    font-size: 15px;
+    /* background-color: rgba(0, 0, 0, 0.356); */
 }
 
-/* main */
-
-.deserts-bg-image > img {
-    
-}
 
 /* footer site-nav */
 
