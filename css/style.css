@@ -902,9 +902,10 @@ button.mountains-bouncy {
     height: 100vh;
     background-image: 
         linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(/images/desertsbg.png);
+    background-position: center;
     background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
     box-sizing: border-box;
 }
 .deserts-navbar {
@@ -913,25 +914,25 @@ button.mountains-bouncy {
     align-items: center;
 }
 .deserts-logo {
-    width: 70px;
+    width: 50px;
     cursor: pointer;
 }
 .menu-icon {
-    width: 40px;
+    width: 30px;
     cursor: pointer;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 #deserts-nav {
     flex: 1;
     text-align: right;
     background: transparent;
 }
-#deserts-nav > ul > li {
+#deserts-nav ul li {
     list-style: none;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 60px;
 }
-#deserts-nav > ul > li > a {
+#deserts-nav ul li a {
     text-decoration: none;
     color: #ecd540;
     font-size: 1.4em;
@@ -943,6 +944,7 @@ button.mountains-bouncy {
 }
 .deserts-col {
     flex-basis: 50%;
+    
 }
 #deserts-heading {
    color: white; 
@@ -957,7 +959,7 @@ button.mountains-bouncy {
 #deserts-btn {
     width: 180px;
     color: #000;
-    font-size: 12px;
+    font-size: 14px;
     padding: 12px 0;
     background: white;
     border: 0;
@@ -965,10 +967,17 @@ button.mountains-bouncy {
     outline: none;
     margin-top: 30px;
 }
+#deserts-btn > a {
+    text-decoration: none;
+}
+#deserts-btn > a:hover {
+    color: #ecd540;
+}
 .deserts-card {
     width: 300px;
     height: 330px;
     display: inline-block;
+    overflow: hidden;
     border-radius: 10px;
     padding: 20px 25px;
     margin: 10px 15px;
