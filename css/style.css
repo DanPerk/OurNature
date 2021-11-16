@@ -606,7 +606,10 @@ button.mountains-bouncy {
 .oceans-html, .oceans-body {
     height: 100%;
     margin: 0;
-    background: #fe8c4e49;
+    /* background: #fe8c4e49; */
+    /* background-color: white; */
+    background: rgb(255,177,143);
+background: linear-gradient(70deg, rgba(255,177,143,1) 0%, rgba(254,146,98,1) 47%, rgba(255,177,143,1) 100%);
 }
 
 /* oceans text */
@@ -625,11 +628,12 @@ button.mountains-bouncy {
     left: 50%; /* Position text in the middle */
     transform: translate(-50%, -50%); /* Position text in the middle */
     mix-blend-mode: multiply; /* This makes the cutout text possible */
+    z-index: 2;
   }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    opacity: 0.8;
+    opacity: 0.9;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -639,25 +643,55 @@ button.mountains-bouncy {
 .bgimg-1 {
     background-image: url("../images/oceans-bg-1.jpg");
     min-height: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
 }
 
 .bgimg-2 {
     background-image: url("../images/oceans-bg-2.jpg");
     min-height: 500px;
     text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.116);
 }
+
+/* ocean list with hyperlinks*/
+
+.oceans-list {
+    font-size: 2.0rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.oceans-list a {
+    text-decoration: none;
+    color: black;
+    /* border-right: 1px solid black; */
+    /* box-shadow: 1px 1px 2px 2px black; */
+    /* border-radius: 1px; */
+    text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.582);
+    transition: 0.8s ease-in-out;
+}
+
+.oceans-list a:nth-child(-n+4) {
+    margin-right: 5rem;
+}
+
+.oceans-list a:hover {
+    font-size: 2.8rem;
+    text-shadow: 8px 8px 2px rgba(0, 0, 0, 0.377);
+}
+
 /* Mediterranean Sea & Baltic Sea  */
 
 .view {
     display: inline-block;
     width: 500px;
     height: 333px;
-    margin: 5% 10px;
-    border: 5px solid #fff;
+    margin: 5% 50px;
+    /* border: 5px solid #fff; */
     overflow: hidden;
     position: relative;
     text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
+    /* box-shadow: 1px 1px 2px #e6e6e6; */
     cursor: default;
 }
 
